@@ -1,0 +1,23 @@
+Realizar su CV en una one page
+    Deben utilizar: HTML5, CSS3, Bootstrap, PHP o Java Script)
+
+Debe contener las siguientes secciones (en ese orden):
+    Perfil: Debe contener foto de perfil, datos personales (nombre, edad, perfil profesional (elegir uno)), objetivo profesional
+    Formación educativa (ultimo grado de estudio, no necesito toda su historia académica)
+    Experiencia laboral (sino cuentan con experiencia laboral pueden inventar o utilizar lorem ipsum)
+    Skills (incluir porcentaje)
+    Área de contacto (formulario de contacto pueden usar JavaScript o PHP pero cada registro debe poder guardarse una base de datos)
+    La estructura HTML debe tener un header, un body y un footer
+    Se debe cargar a un repositorio de GitHub siguiendo la nomenclatura snake case y debe hacer referencia a que es un cv y debe incluir du nombre
+    Agregar alerta de: 100%, advertir a la persona
+Puntos extras:
+    Hacer documentación
+    Hacer mockups previos o prototipos y adjuntarlos a la documentación
+    Utilizar Laravel para el formulario de contacto
+    Enviar un email al momento de hacer un registro en el formulario de contacto
+    Alojarlo en un hosting gratuito y usar un dominio gratuito
+    Hacer un pequeño visor para los registros del formulario de contacto
+
+Notas:
+    El diseño es a estilo libre
+    No usar template o plantillas predeterminadas

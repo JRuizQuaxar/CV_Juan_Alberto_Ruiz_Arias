@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    left: 0; /*Margen de la derecha*/
+    top: 0; /*Margen de arriba*/
+}
+#Nav{
+    margin-block-start: 0px;
+    width: 100%; /*Anchura*/
+    height: 50px; /*Altura*/
+    background-color:#dad7cc; /*Color del fondo*/
+}
+
+#Nav{
+    color:rgb(113, 141, 188); /*Color de las letras*/
+    font-family: georgia; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 30px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+}
+
+a {
+    font-size:28px;/*Tamaño*/
+    color:#3d3a39; /*Color de las letras*/
+    object-position: center; /*Alineación del texto*/
+    margin-left: 70px;/*Espacio izquierdo*/
+  }
+a:hover{ 
+    background-color:rgb(113, 141, 188);/*Color del sombreado*/
+}
+
+
+  #Titulo{
+    color:#dad7cc; /*Color de las letras*/
+    font-family: georgia; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 30px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios*/
+}
+#Titulo{
+    width: 100%; /*Anchura*/
+    height: 32px; /*Altura*/
+    background-color:rgb(113, 141, 188); /*Color del fondo*/
+}
+
+#fotoPerfil {
+    background-image: url("imagenes/FOTO_opt.png");
+    width:150px; /*Ancho*/
+    height:200px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 50px; /*Espacios de arriba*/
+    margin-left: 30px; /*Espacios de izquierda*/
+    box-shadow: -10px -10px 10px #dad7cc,
+               10px  10px 10px #dad7cc; 
+  border-radius: 10px;   /*Lo de arriba nos ayuda a tener diseño en la imagen de perfil añadida*/
+  }
+  
+#datosPersonales{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top: -215px; /*Espacios de arriba*/
+    margin-left: -700px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#val1{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 997px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#perfilProfesional{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top: 15px; /*Espacios de arriba*/
+    margin-left: -1007px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#val2{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 998px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#objetivoProfesional{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top: 15px; /*Espacios de arriba*/
+    margin-left: -967px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#val3{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 950px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#puntosExtras{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 15px; /*Espacios de arriba*/
+    margin-left: -280px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+    margin-top: -390px;
+}
+
+#empresasTecnologicas{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 15px; /*Espacios de arriba*/
+    margin-left: 1070px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+    margin-top: -373px;
+}
+
+#val4{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: -70px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#espaciosDeTrabajo{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 15px; /*Espacios de arriba*/
+    margin-left: 60px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+    margin-top: 15px;
+}
+
+#espacioTrabajo1 {
+    width:150px; /*Ancho*/
+    height:84px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 50px; /*Espacios de arriba*/
+    margin-left: -90px; /*Espacios de izquierda*/
+}
+
+#espacioTrabajo2 {
+    width:150px; /*Ancho*/
+    height:84px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: -82px; /*Espacios de arriba*/
+    margin-left: 180px; /*Espacios de izquierda*/
+}
+
+#pie{
+    color:#dad7cc; /*Color de las letras*/
+    font-family: georgia; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top: 200px; /*Espacios*/
+    margin-left: -1200px;
+}
+
+#pie{
+    width: 1010%; /*Anchura*/
+    height: 20px; /*Altura*/
+    background-color:rgb(113, 141, 188); /*Color del fondo*/
+}
+
+
+/*INDEX*/
+
+
+
+
+
+
+#fotoPerfil2 {
+    background-image: url("imagenes/FOTO3_opt.jpg");
+    width:180px; /*Ancho*/
+    height:240px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 50px; /*Espacios de arriba*/
+    margin-left: 30px; /*Espacios de izquierda*/
+    box-shadow: -10px -10px 10px #dad7cc,
+               10px  10px 10px #dad7cc; 
+  border-radius: 10px;   /*Lo de arriba nos ayuda a tener diseño en la imagen de perfil añadida*/
+  }
+
+#fotoPerfil3 {
+    background-image: url("imagenes/FOTO4_opt.jpg");
+    width:180px; /*Ancho*/
+    height:356px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 160px; /*Espacios de arriba*/
+    margin-left: 30px; /*Espacios de izquierda*/
+    box-shadow: -10px -10px 10px #dad7cc,
+               10px  10px 10px #dad7cc; 
+  border-radius: 10px;   /*Lo de arriba nos ayuda a tener diseño en la imagen de perfil añadida*/
+  }
+
+#prepa{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -770px; /*Espacios de arriba*/
+    margin-left: 300px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#val1_edu{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+/*Descargar archivos*/
+
+#linkPrepa{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: lucida; /*Tipo de letras*/
+    font-size: 2px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: -25px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#linkUni{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: lucida; /*Tipo de letras*/
+    font-size: 2px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 25px; /*Espacios de arriba*/
+    margin-left: 0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+/*Descargar archivos*/
+
+#uni{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 15px; /*Espacios de arriba*/
+    margin-left: -10px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#val2_edu{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#descargar{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -823px; /*Espacios de arriba*/
+    margin-left: 840px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#cetis79 {
+    background-image: url("imagenes/cetis_opt.jpg");
+    width:150px; /*Ancho*/
+    height:100px; /*Altura*/
+    margin-top: 50px; /*Espacios de arriba*/
+    margin-left: 70px; /*Espacios de izquierda*/
+  }
+
+  #linkCuadroHonor{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: lucida; /*Tipo de letras*/
+    font-size: 2px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 5px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#uv {
+    background-image: url("imagenes/uv_opt.jpg");
+    width:150px; /*Ancho*/
+    height:150px; /*Altura*/
+    margin-top: 200px; /*Espacios de arriba*/
+    margin-left: 92px; /*Espacios de izquierda*/
+  }
+
+#pieEducation{
+    color:#dad7cc; /*Color de las letras*/
+    font-family: georgia; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top: 200px; /*Espacios*/
+    margin-left: -1200px;
+    margin-block-end: -25px;
+}
+
+#pieEducation{
+    width: 450%; /*Anchura*/
+    height: 20px; /*Altura*/
+    background-color:rgb(113, 141, 188); /*Color del fondo*/
+}
+
+
+/*EDUCATION*/
+
+
+
+
+
+
+
+
+#fotoDimjuve1{
+    background-image: url("imagenes/dimjuve2_opt.jpg");
+    width:500px; /*Ancho*/
+    height:332px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 50px; /*Espacios de arriba*/
+    margin-left: 30px; /*Espacios de izquierda*/
+    opacity: 0.9;
+    box-shadow: -10px -10px 10px #dad7cc,
+    10px  10px 10px #dad7cc; 
+    border-radius: 10px;   /*Lo de arriba nos ayuda a tener diseño en la imagen de perfil añadida*/
+  }
+
+#fotoDimjuve2{
+    background-image: url("imagenes/dimjuve_opt.jpg");
+    width:500px; /*Ancho*/
+    height:333px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 177px; /*Espacios de arriba*/
+    margin-left: 30px; /*Espacios de izquierda*/
+    box-shadow: -10px -10px 10px #dad7cc,
+    10px  10px 10px #dad7cc; 
+    border-radius: 10px;   /*Lo de arriba nos ayuda a tener diseño en la imagen de perfil añadida*/
+  }
+
+#expLaboral{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -855px; /*Espacios de arriba*/
+    margin-left: 650px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#val1_labo{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#linkDim1{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: lucida; /*Tipo de letras*/
+    font-size: 2px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 5px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#links{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 50px; /*Espacios de arriba*/
+    margin-left: -9px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#links2{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: lucida; /*Tipo de letras*/
+    font-size: 5px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: -70px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+
+#pieLaboral{
+    color:#dad7cc; /*Color de las letras*/
+    font-family: georgia; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top:80px; /*Espacios*/
+    margin-left: -591px;
+    margin-block-end: -25px;
+}
+
+#pieLaboral{
+    width: 165%; /*Anchura*/
+    height: 20px; /*Altura*/
+    background-color:rgb(113, 141, 188); /*Color del fondo*/
+}
+
+
+
+
+
+
+/*LABORAL*/
+
+
+
+
+
+
+
+#fotoContacto{
+    background-image: url("imagenes/FOTO6_opt.jpg");
+    width:400px; /*Ancho*/
+    height:539px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 50px; /*Espacios de arriba*/
+    margin-left: 30px; /*Espacios de izquierda*/
+    box-shadow: -10px -10px 10px #dad7cc,
+    10px  10px 10px #dad7cc; 
+    border-radius: 10px;   /*Lo de arriba nos ayuda a tener diseño en la imagen de perfil añadida*/ 
+  }
+
+
+#contacto{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -550px; /*Espacios de arriba*/
+    margin-left: 580px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+/*Base de Datos*/
+
+
+
+form {
+	padding: 85px 20px; /*Iba 60px 20 px*/
+	background-color: #ededed;
+	margin: calc(10% + 90px);
+	margin-top: -537px;
+	padding-top: -400px;
+	margin-bottom: 30px;
+    margin-left: 500px;
+    
+}
+
+#formTitulo{
+	text-align: center;
+    margin-top: -55px;
+	padding: -50px;
+    font-size: 40px;
+    font-family: arial;
+	color: rgb(113, 141, 188);
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+input[type='submit']{
+	background-color: rgb(113, 141, 188);
+	color: #fff;
+    font-size: medium;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 70px;
+	border: none;
+}
+
+.correcto {   
+	width: 20%;
+	padding: 12px;
+	background-color: rgb(101, 207, 124);
+	color: #fff;
+    margin-left: 710px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.mal {
+	width: 20%;
+	padding: 12px;
+	background-color: rgb(202, 88, 88);
+	color: #fff;
+    margin-left: 710px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+
+#pieContact{
+    width: 100%; /*Anchura*/
+    height: 20px; /*Altura*/
+    background-color:rgb(113, 141, 188); /*Color del fondo*/
+}
+
+#pieContact{
+    color:#dad7cc; /*Color de las letras*/
+    font-family: georgia; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top:80px; /*Espacios*/
+    margin-left: 0px;
+    margin-block-end: -25px;
+}
+
+
+
+
+
+
+
+/*Contact*/
+
+
+
+
+
+
+
+#datosSkills{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 480px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#fotoSkill{
+    background-image: url("imagenes/FOTO7_opt.jpg");
+    width:260px; /*Ancho*/
+    height:452px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 50px; /*Espacios de arriba*/
+    margin-left: 30px; /*Espacios de izquierda*/
+    box-shadow: -10px -10px 10px #dad7cc,
+    10px  10px 10px #dad7cc; 
+    border-radius: 10px;   /*Lo de arriba nos ayuda a tener diseño en la imagen de perfil añadida*/
+  }
+
+#habilidad1{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -470px; /*Espacios de arriba*/
+    margin-left: 400px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#textoHabilidad1{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: -0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#habilidad2{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -10px; /*Espacios de arriba*/
+    margin-left: -10px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#textoHabilidad2{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: -0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#habilidad3{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -10px; /*Espacios de arriba*/
+    margin-left: -10px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#textoHabilidad3{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: -0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#habilidad4{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -10px; /*Espacios de arriba*/
+    margin-left: -10px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#textoHabilidad4{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: -0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#habilidad5{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -10px; /*Espacios de arriba*/
+    margin-left: -10px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#textoHabilidad5{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: -0px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#grafico{
+    color:#3d3a39; /*Color de las letras*/
+    font-family: arial; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: left; /*Alineación del texto*/
+    margin-top: -845px; /*Espacios de arriba*/
+    margin-left: 700px; /*Es para tantear exactamente el lugar donde quieres el texto*/
+}
+
+#fotoSkill2{
+    background-image: url("imagenes/GRAFICO_opt.jpg");
+    width:350px; /*Ancho*/
+    height:580px; /*Altura*/
+    border-radius:15px; /*Borde*/
+    margin-top: 20px; /*Espacios de arriba*/
+    margin-left: 0px; /*Espacios de izquierda*/
+    box-shadow: -10px -10px 10px #dad7cc,
+    10px  10px 10px #dad7cc; 
+    border-radius: 10px;   /*Lo de arriba nos ayuda a tener diseño en la imagen de perfil añadida*/
+  }
+
+#pieSkill{
+    width: 440%; /*Anchura*/
+    height: 20px; /*Altura*/
+    background-color:rgb(113, 141, 188); /*Color del fondo*/
+}
+
+#pieSkill{
+    color:#dad7cc; /*Color de las letras*/
+    font-family: georgia; /*Tipo de letras*/
+    padding: 10px; /*Margen interior*/
+    font-size: 20px;/*Tamaño de las letras*/
+    text-align: center; /*Alineación del texto*/
+    margin-top:250px; /*Espacios*/
+    margin-left: -1120px;
+    margin-block-end: -60px;
+}
+/* Paleta de colores e imagenes inspiradas en el album "Scaled and Icy" de "TOP", link: "https://lospec.com/palette-list/scaled-and-icy"*/
